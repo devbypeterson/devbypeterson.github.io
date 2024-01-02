@@ -1,42 +1,113 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Peterson Fontoura - Data Analyst / Business Intelligence</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1><img src="assets/img/peterson-fontoura-logo.webp" alt="" height="40px"></h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="whatsapp-button">
+                <button><a href="#"><i class="fa-brands fa-whatsapp"></i> Fale comigo</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img src="assets/img/menu_white_36dp.svg" class="icon"></button>
+            </div>
+        </nav>
+
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#project" class="nav-link">Projects</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Resume</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="whatsapp-button">
+                <button><a href="#"><i class="fa-brands fa-whatsapp"></i> Fale comigo</a></button>
+            </div>
+        </div>
+    </header>
     <main>
-        
+        <main class="main-content">
+            <section class="welcome-section">
+                <h2>Bem-vindo ao meu site</h2>
+                <p>Oi! Meu nome é Peterson Fontoura e eu sou um Data Analyst / Business Intelligence. Este é o meu site
+                    pessoal onde compartilho informações sobre meus projetos, habilidades e contato. Fique à vontade
+                    para explorar!</p>
+            </section>
+
+            <section class="project-section" id="project">
+                <h2>Projetos</h2>
+                <p>Aqui estão alguns dos meus projetos recentes:</p>
+                <!-- Lista de projetos ou informações sobre projetos -->
+                <!-- Por exemplo: -->
+                <ul>
+                    <li>Projeto 1</li>
+                    <li>Projeto 2</li>
+                    <li>Projeto 3</li>
+                </ul>
+            </section>
+
+            <section class="resume-section">
+                <h2>Resumo</h2>
+                <p>Um resumo ou informações sobre sua carreira, experiência, educação, etc.</p>
+            </section>
+
+            <section class="contact-section">
+                <h2>Contato</h2>
+                <p>Entre em contato comigo pelos seguintes meios:</p>
+                <!-- Informações de contato como formulário, e-mail, telefone, etc. -->
+            </section>
+        </main>
     </main>
     <footer>
         <div id="footer-content">
             <div id="footer-contact">
-                <h1>Logo</h1>
+                <h1><img src="assets/img/peterson-fontoura-logo.webp" alt="" height="40px"></h1>
                 <p>It's about us.</p>
 
                 <div id="footer-social-media">
-                    <a href="https://www.linkedin.com/in/devbypeterson/" class="footer-link" id="linkedin" target="_blank">
+                    <a href="https://www.linkedin.com/in/devbypeterson/" class="footer-link" id="linkedin"
+                        target="_blank">
                         <i class="fa-brands fa-linkedin"></i>
                     </a>
-                    
+
 
                     <a href="" class="footer-link" id="github">
                         <i class="fa-brands fa-github"></i>
                     </a>
-                    
+
 
                     <a href="" class="footer-link" id="whatsapp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
-                    
+
 
                     <a href="" class="footer-link" id="instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    
+
                 </div>
             </div>
 
@@ -93,5 +164,7 @@
             2024 - Peterson Fontoura - All rights reserved
         </div>
     </footer>
+    <script src="assets/js/script.js"></script>
 </body>
+
 </html>
